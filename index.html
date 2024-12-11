@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohan Jangale - Portfolio</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Sidebar Navigation */
+    .sidebar {
+      width: 250px;
+      background: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .sidebar h1 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+
+    .nav-links {
+      list-style: none;
+    }
+
+    .nav-links li {
+      margin: 10px 0;
+    }
+
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #00ff7f;
+    }
+
+    .footer {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    /* Main Content */
+    .main-content {
+      flex: 1;
+      padding: 40px;
+      background: #f4f4f4;
+      overflow-y: auto;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+
+    .hero-text {
+      font-size: 1.2rem;
+    }
+
+    .hero-text h1 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+
+    .hero-text p {
+      margin-top: 10px;
+      color: #555;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      margin-right: 10px;
+      padding: 10px 20px;
+      background: #00ff7f;
+      color: #fff;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .buttons a:hover {
+      background: #007f5f;
+    }
+
+    /* Additional Sections */
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    section p, section ul {
+      color: #555;
+    }
+
+    section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    section ul li {
+      margin: 10px 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div>
+      <h1>Rohan Jangale</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer">
+      <p>&copy; 2024 Rohan Jangale</p>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Hi, I'm Rohan Jangale</h1>
+        <p>Self-driven Computer Engineering student specializing in AI, web development, and innovative tech solutions.</p>
+        <div class="buttons">
+          <a href="#about">Read More</a>
+          <a href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a Computer Engineering student with expertise in AI and web development. My passion lies in solving real-world problems through innovative technologies.</p>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>NutriVision:</strong> AI-powered nutrition web app.</li>
+        <li><strong>Tree Detection:</strong> YOLOv7-based environmental project.</li>
+        <li><strong>Gaming Web App:</strong> Created AI opponents with authentication.</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Highlights include NutriVision, a 3D space calculator, and a gaming app with AI.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python, Django, YOLOv7</li>
+        <li>MySQL, PostgreSQL</li>
+        <li>AI, Machine Learning</li>
+      </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <p>St. John College of Engineering and Management, pursuing B.E. in Computer Engineering.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:rohn.py@gmail.com">rohn.py@gmail.com</a></p>
+      <p>Phone: +91 8788882686</p>
+    </section>
+
+    <footer>
+      <p>Thank you for visiting!</p>
+    </footer>
+  </main>
+</body>
+</html>
